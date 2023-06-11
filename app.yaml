@@ -13,8 +13,8 @@
 # limitations under the License.
 
 runtime: python39
-
-entrypoint: uvicorn main:app --port=${PORT}
+#--host=0.0.0.0
+#entrypoint: uvicorn main:app --port=${PORT}
 
 #handlers:
 #  # This configures Google App Engine to serve the files in the app's root
